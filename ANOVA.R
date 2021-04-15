@@ -9,8 +9,7 @@ sidouhou <- c(rep("A",5),rep("B",5),rep("C",5),rep("D",5))
 sidouhou2 <- factor(sidouhou)
 
 #分析
-aov(statistics_test2~sidouhou2)
-summary(aov(statistics_test2~sidouhou2))
+anova(lm(statistics_test2~sidouhou2))
 #F(3,16)=7.11, p<.01
 
 #多重比較
