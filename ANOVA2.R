@@ -7,7 +7,7 @@ attach(dat)
 m.dat <- tapply(Score, Class, mean)
 sd.dat <- tapply(Score, Class, sd)
 
-table(Class)                # 各グループの人数確認
+table(Class)   # 各グループの人数確認
 m.dat # 各グループの平均
 sd.dat # 各グループの標準偏差
 
